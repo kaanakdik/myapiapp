@@ -37,7 +37,7 @@ app.MapGet("/weatherforecast", () =>
 .WithOpenApi();
 
 // ✅ Yeni eklediğimiz endpoint:
-app.MapGet("/hello", () => "Hello from updated API!, Son ekleme, son bir ekleme daha!, son son");
+app.MapGet("/hello", () => "Hello from updated API!, Son ekleme, son bir ekleme daha!, son son, daha son");
 
 app.Run();
 
