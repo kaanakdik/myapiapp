@@ -40,7 +40,7 @@ app.MapGet("/weatherforecast", () =>
 app.MapGet("/hello", () => "Hello from updated API!, Son ekleme, son bir ekleme daha!, son son, daha son");
 
 // ✅ Yeni eklediğimiz endpoint:
-app.MapGet("/hello2", () => "Hello2 from updated API!, Son ekleme, son bir ekleme daha!, son son, daha son, burası hello2 endpointi");
+app.MapGet("/hello2", () => "Hello2 from updated API!, Son ekleme, son bir ekleme daha!, son son, daha son, burası hello2 endpointi.");
 
 app.Run();
 
